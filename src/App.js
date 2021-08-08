@@ -1,24 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Switch, Route } from "react-router-dom";
+
+import Header from "./components/header";
+import Footer from "./components/footer";
+
+import Home from "./source/home";
+import Contact from "./source/contact";
+import Privacy from "./source/privacy";
+
+import StripeCheckout from "./controllers/stripe";
+import Paypal from "./controllers/paypal";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Header />
+      <Switch>
+        <Route path="/checkout/paypal" component={Paypal} />
+        <Route path="/checkout/stripe/:sid" component={StripeCheckout} />
+        <Route path="/privacy" component={Privacy} />
+        <Route path="/contact" component={Contact} />
+        <Route path="/" component={Home} />
+      </Switch>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <Footer />
+    </BrowserRouter>
   );
 }
 
