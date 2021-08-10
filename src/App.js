@@ -21,11 +21,6 @@ function App() {
         <Route path="/contact" component={Contact} />
         <Route path="/" component={Home} />
       </Switch>
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
       <Footer />
     </BrowserRouter>
   );
