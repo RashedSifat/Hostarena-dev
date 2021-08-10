@@ -6,18 +6,8 @@ class Header extends PureComponent {
       <header id="topnav" className="defaultscroll sticky d-print-none">
         <div className="container">
           <a className="logo" href="index.html">
-            <img
-              src="/images/logo-dark.png"
-              height="24"
-              className="logo-light-mode"
-              alt=""
-            />
-            <img
-              src="/images/logo-light.png"
-              height="24"
-              className="logo-dark-mode"
-              alt=""
-            />
+            <h3 className="logo-light-mode">Hostarena</h3>
+            <h3 className="logo-dark-mode">Hostarena</h3>
           </a>
           <div className="buy-button">
             <a href="/#plans" className="btn btn-primary">
@@ -37,17 +27,29 @@ class Header extends PureComponent {
           <div id="navigation">
             <ul className="navigation-menu nav-light">
               <li>
-                <a href="/" className="sub-menu-item" style={{color: "black"}}>
+                <a
+                  href="/"
+                  className="sub-menu-item"
+                  style={{ color: "black" }}
+                >
                   Home
                 </a>
               </li>
               <li>
-                <a href="/contact" className="sub-menu-item" style={{color: "black"}}>
+                <a
+                  href="/contact"
+                  className="sub-menu-item"
+                  style={{ color: "black" }}
+                >
                   Contact Us
                 </a>
               </li>
               <li>
-                <a href="/privacy" className="sub-menu-item" style={{color: "black"}}>
+                <a
+                  href="/privacy"
+                  className="sub-menu-item"
+                  style={{ color: "black" }}
+                >
                   Privacy Policy
                 </a>
               </li>
