@@ -255,7 +255,7 @@ class Home extends PureComponent {
                   <h4 className="title mb-4">Cloud Hosting Services</h4>
                   <p className="text-muted para-desc mb-0">
                     Start working with{" "}
-                    <span className="text-primary fw-bold">Landrick</span> that
+                    <span className="text-primary fw-bold">Hostarena</span> that
                     can provide everything you need to generate awareness, drive
                     traffic, connect.
                   </p>
@@ -409,7 +409,7 @@ class Home extends PureComponent {
                     Get best plan for more power with cloud Hosting
                   </h4>
                   <p className="text-muted">
-                    You can combine all the Landrick templates into a single
+                    You can combine all the Hostarena templates into a single
                     one, you can take a component from the Application theme and
                     use it in the Website.
                   </p>
@@ -448,7 +448,7 @@ class Home extends PureComponent {
                     Don't Compromise with the best web hosting solutions
                   </h4>
                   <p className="text-muted">
-                    Using Landrick to build your site means never worrying about
+                    Using Hostarena to build your site means never worrying about
                     designing another page or cross browser compatibility. Our
                     ever-growing library of components and pre-designed layouts
                     will make your life easier.
@@ -498,7 +498,7 @@ class Home extends PureComponent {
                     Powerful Server & Web Hosting Plateform
                   </h4>
                   <p className="text-muted">
-                    You can combine all the Landrick templates into a single
+                    You can combine all the Hostarena templates into a single
                     one, you can take a component from the Application theme and
                     use it in the Website.
                   </p>
@@ -554,7 +554,7 @@ class Home extends PureComponent {
                   </h4>
                   <p className="text-muted para-desc mx-auto mb-0">
                     Start working with{" "}
-                    <span className="text-primary fw-bold">Landrick</span> that
+                    <span className="text-primary fw-bold">Hostarena</span> that
                     can provide everything you need to generate awareness, drive
                     traffic, connect.
                   </p>
@@ -640,7 +640,7 @@ class Home extends PureComponent {
                   <h4 className="title mb-4">Client Reviews</h4>
                   <p className="text-muted para-desc mx-auto mb-0">
                     Start working with{" "}
-                    <span className="text-primary fw-bold">Landrick</span> that
+                    <span className="text-primary fw-bold">Hostarena</span> that
                     can provide everything you need to generate awareness, drive
                     traffic, connect.
                   </p>
