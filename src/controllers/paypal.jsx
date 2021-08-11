@@ -1,6 +1,7 @@
 import React, { PureComponent } from "react";
 import axios from "axios";
 import { server } from "../env";
+import Loader from "../components/Loader";
 
 class Paypal extends PureComponent {
   state = {};
@@ -21,7 +22,11 @@ class Paypal extends PureComponent {
     });
   };
   render() {
-    return <></>;
+    return (
+      <div className="text-center mb-5" style={{ marginTop: "8rem" }}>
+        <h1>Processing...</h1>
+      </div>
+    );
   }
 }
 

@@ -3,7 +3,7 @@ class Header extends PureComponent {
   state = {};
   render() {
     return (
-      <header id="topnav" className="defaultscroll sticky d-print-none">
+      <header id="topnav" className="defaultscroll sticky d-print-none bg-white text-black">
         <div className="container">
           <a className="logo" href="index.html">
             <h3 className="logo-light-mode">Hostarena</h3>
@@ -25,7 +25,7 @@ class Header extends PureComponent {
             </div>
           </div>
           <div id="navigation">
-            <ul className="navigation-menu nav-light">
+            <ul className="navigation-menu">
               <li>
                 <a
                   href="/"

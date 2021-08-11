@@ -7,6 +7,8 @@ import Home from "./source/home";
 import Contact from "./source/contact";
 import Privacy from "./source/privacy";
 
+import Checkout from "./source/checkout";
+
 import StripeCheckout from "./controllers/stripe";
 import Paypal from "./controllers/paypal";
 
@@ -16,7 +18,8 @@ function App() {
       <Header />
       <Switch>
         <Route path="/checkout/paypal" component={Paypal} />
-        <Route path="/checkout/stripe/:sid" component={StripeCheckout} />
+        <Route path="/checkout/:id" component={Checkout} />
+        {/* <Route path="/checkout/stripe/:sid" component={StripeCheckout} /> */}
         <Route path="/privacy" component={Privacy} />
         <Route path="/contact" component={Contact} />
         <Route path="/" component={Home} />

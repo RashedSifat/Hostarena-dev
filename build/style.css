@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+body,
+html {
+	background-color: #f3f3f3;
+	margin: 0;
+	height: 100%;
+	width: 100%;
+	font-family: 'DM Sans', sans-serif;
+	overflow-x: hidden!important
+}
+a {
+	color: #1774f0
+}
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+	outline: none;
+	text-decoration: none
+}
+a:hover,
+a:focus,
+a:active,
+a.active {
+	color: #1774f0
+}
+#order {
+	font-size: 16px;
+	margin-top: 7.5%
+}
+#order .card {
+	box-shadow: rgba(0, 0, 0, .11) 0 0 15.04px .96px
+}
+#order .card .header {
+	background: linear-gradient(to right, #396afc, #2948ff);
+	padding: 20px;
+	border-radius: 10px 10px 0 0;
+}
+#order .card .header .brand {
+	font-family: 'DM Sans', sans-serif;
+	font-size: 30px;
+	color: #fff
+}
+#order .card .header .total {
+	font-family: 'DM Sans', sans-serif;
+	font-size: 30px;
+	color: #fff
+}
+#order .card .header .total span {
+	font-family: 'DM Sans', sans-serif;
+	font-size: 16px;
+	vertical-align: text-top
+}
+#order .card .body {
+	background-color: #fff;
+	padding: 20px;
+	min-height: 390px
+}
+#order .card .body .select-payment {
+	font-family: 'DM Sans', sans-serif;
+	font-size: 15px;
+	font-weight: 800;
+	line-height: 17px;
+	min-height: 17px;
+	opacity: 1;
+	text-align: center
+}
+#order .card .body .box-container {
+	display: block;
+	margin: 0 auto
+}
+#order .card .body .box {
+	background-color: #fff;
+	border: 1px solid #d4d4d4;
+	margin-bottom: 30px;
+	border-radius: 3px;
+	color: #008cdb;
+	cursor: pointer;
+	display: inline-block;
+	height: 145px;
+	opacity: 1;
+	padding: 20px 8px;
+	text-align: center;
+	text-decoration: none;
+	transition-delay: 0s;
+	transition-duration: .2s;
+	transition-property: opacity;
+	transition-timing-function: linear;
+	vertical-align: top;
+	width: 100%
+}
+#order .card .body .box .logo-container {
+	height: 50px;
+	margin: 12px auto 10px;
+	position: relative;
+	width: 95px
+}
+#order .card .body .box .logo-container img {
+	border-style: none;
+	bottom: 0;
+	height: auto;
+	left: 0;
+	margin: auto;
+	max-height: 100%;
+	max-width: 100%;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: auto
+}
+#order .card .body .box .title {
+	font-family: 'DM Sans', sans-serif;
+	color: rgb(15, 15, 15);
+	display: block;
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 1em;
+	margin: 0
+}
+#order .card .body .box:hover {
+	box-shadow: rgba(0, 0, 0, .14) 0 5px 10px 0;
+	color: #056aab;
+	outline: 0
+}
+#order .card .footer {
+	background: linear-gradient(to right, #396afc, #2948ff);
+	padding: 20px;
+	border-radius: 0 0 10px 10px
+}
+#order .card .footer .txt {
+	font-family: 'DM Sans', sans-serif;
+	font-size: 12px;
+	color: #fff;
+	text-align: center
+}
+@media only screen and (max-width: 762px) {}
