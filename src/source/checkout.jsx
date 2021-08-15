@@ -43,7 +43,7 @@ class Checkout extends PureComponent {
       checkout_id: this.state.id,
     };
     await axios
-      .post(server + "/v1/checkout/paypal", params)
+      .post(server + "/v1/checkout/checkout-paypal", params)
       .then((rsp) => {
         window.location.href = rsp.data.payload.url;
       })
@@ -61,7 +61,7 @@ class Checkout extends PureComponent {
       checkout_id: this.state.id,
     };
     await axios
-      .post(server + "/v1/checkout/stripe", params)
+      .post(server + "/v1/checkout/checkout-stripe", params)
       .then(async (rsp) => {
         var stripe_creds = this.state.creds.filter(
           (data) => data.key === "STRIPE_PUBLIC_KEY"

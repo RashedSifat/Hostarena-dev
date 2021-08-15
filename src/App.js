@@ -18,8 +18,8 @@ function App() {
       <Header />
       <Switch>
         <Route path="/checkout/paypal" component={Paypal} />
+        <Route path="/checkout/stripe/:sid" component={StripeCheckout} />
         <Route path="/checkout/:id" component={Checkout} />
-        {/* <Route path="/checkout/stripe/:sid" component={StripeCheckout} /> */}
         <Route path="/privacy" component={Privacy} />
         <Route path="/contact" component={Contact} />
         <Route path="/" component={Home} />
