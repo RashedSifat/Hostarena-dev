@@ -9,7 +9,7 @@ class StripeCheckout extends PureComponent {
     sid: this.props.match.params.sid,
   };
   componentDidMount = async () => {
-    localStorage.setItem("sdi", this.state.sid);
+    localStorage.setItem("sid", this.state.sid);
     await axios
       .get(server + "/v1/payment_method/read-public")
       .then((rsp) => {
