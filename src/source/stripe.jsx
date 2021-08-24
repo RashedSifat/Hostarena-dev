@@ -11,7 +11,7 @@ function Stripe(props) {
     axios
       .get(server + "/v1/checkout/read/" + sid)
       .then((rsp) => {
-        window.location.href = rsp.data.payload.return_url;
+        window.location.href = rsp.data.payload.order.return_url;
       })
       .catch((err) => {
         window.location.href = "/";
