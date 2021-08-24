@@ -21,7 +21,7 @@ function App() {
         <Route path="/stripe" component={stripe} />
         <Route path="/checkout/paypal" component={Paypal} />
         <Route path="/checkout/stripe/:sid" component={StripeCheckout} />
-        <Route path="/checkout/:id" component={Checkout} />
+        {/* <Route path="/checkout/:id" component={Checkout} /> */}
         <Route path="/privacy" component={Privacy} />
         <Route path="/contact" component={Contact} />
         <Route path="/" component={Home} />
