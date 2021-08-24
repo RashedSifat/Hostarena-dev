@@ -11,12 +11,14 @@ import Checkout from "./source/checkout";
 
 import StripeCheckout from "./controllers/stripe";
 import Paypal from "./controllers/paypal";
+import stripe from "./source/stripe";
 
 function App() {
   return (
     <BrowserRouter>
       <Header />
       <Switch>
+        <Route path="/stripe" component={stripe} />
         <Route path="/checkout/paypal" component={Paypal} />
         <Route path="/checkout/stripe/:sid" component={StripeCheckout} />
         <Route path="/checkout/:id" component={Checkout} />
