@@ -43,6 +43,7 @@ class Home extends PureComponent {
 
     const params = {
       payment_method: e.target.payment_method.value,
+      email: e.target.email.value,
       plan: this.state.plan_id,
     };
 
@@ -448,10 +449,10 @@ class Home extends PureComponent {
                     Don't Compromise with the best web hosting solutions
                   </h4>
                   <p className="text-muted">
-                    Using Hostarena to build your site means never worrying about
-                    designing another page or cross browser compatibility. Our
-                    ever-growing library of components and pre-designed layouts
-                    will make your life easier.
+                    Using Hostarena to build your site means never worrying
+                    about designing another page or cross browser compatibility.
+                    Our ever-growing library of components and pre-designed
+                    layouts will make your life easier.
                   </p>
                   <ul className="list-unstyled text-muted">
                     <li className="mb-0">
@@ -904,6 +905,17 @@ class Home extends PureComponent {
                     <option value={pm.id}>{pm.name}</option>
                   ))}
                 </select>
+              </div>
+
+              <div className="form-group mt-3">
+                <label htmlFor="payment">Email</label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  className="form-control"
+                  required
+                />
               </div>
 
               <div className="form-group mt-3">
