@@ -22,7 +22,7 @@ function App() {
     <BrowserRouter>
       <Header />
       <Switch>
-        <Route path="/stripe/cancel" component={StripeCancel} />
+        {/* <Route path="/stripe/cancel" component={StripeCancel} /> */}
         <Route path="/stripe" component={stripe} />
         <Route path="/checkout/stripe/:sid" component={StripeCheckout} />
 
