@@ -3,7 +3,7 @@ import { CLOUD_COUPON_DOMAIN } from "../env";
 
 class PaypalRedirect extends PureComponent {
   componentDidMount = async () => {
-    window.location.href = CLOUD_COUPON_DOMAIN;
+    window.location.href = "/";
   };
   render() {
     return (
