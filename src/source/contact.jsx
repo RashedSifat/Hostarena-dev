@@ -15,19 +15,13 @@ class Contact extends PureComponent {
                     <nav aria-label="breadcrumb" className="d-inline-block">
                       <ul className="breadcrumb bg-white rounded shadow mb-0">
                         <li className="breadcrumb-item">
-                          <a href="index.html">Landrick</a>
-                        </li>
-                        <li className="breadcrumb-item">
-                          <a href="#">Page</a>
-                        </li>
-                        <li className="breadcrumb-item">
-                          <a href="#">Contact</a>
+                          <a href="index.html">Hostarena</a>
                         </li>
                         <li
                           className="breadcrumb-item active"
                           aria-current="page"
                         >
-                          Contact One
+                          Contact
                         </li>
                       </ul>
                     </nav>
@@ -65,8 +59,8 @@ class Contact extends PureComponent {
                     <p className="text-muted">
                       Start working with Landrick that can provide everything
                     </p>{" "}
-                    <a href="tel:+152534-468-854" className="text-primary">
-                      +152 534-468-854
+                    <a href="tel:+44 0345 450 2310" className="text-primary">
+                      +44 0345 450 2310
                     </a>
                   </div>
                 </div>
@@ -83,10 +77,10 @@ class Contact extends PureComponent {
                       Start working with Landrick that can provide everything
                     </p>{" "}
                     <a
-                      href="mailto:contact@example.com"
+                      href="mailto:sales@hostarena.org"
                       className="text-primary"
                     >
-                      contact@example.com
+                      sales@hostarena.org
                     </a>
                   </div>
                 </div>
@@ -100,9 +94,9 @@ class Contact extends PureComponent {
                   <div className="content mt-3">
                     <h5 className="fw-bold">Location</h5>
                     <p className="text-muted">
-                      C/54 Northwest Freeway, Suite 558,
+                      20-22 Wenlock Road, London
                       <br />
-                      Houston, USA 485
+                      N1 7GU, UNITED KINGDOM
                     </p>{" "}
                     <a
                       href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d39206.002432144705!2d-95.4973981212445!3d29.709510002925988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640c16de81f3ca5%3A0xf43e0b60ae539ac9!2sGerald+D.+Hines+Waterwall+Park!5e0!3m2!1sen!2sin!4v1566305861440!5m2!1sen!2sin"

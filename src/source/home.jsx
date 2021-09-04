@@ -282,8 +282,9 @@ class Home extends PureComponent {
                   <div className="content mt-4">
                     <h5>Domain Name</h5>
                     <p className="text-muted">
-                      Nisi aenean vulputate eleifend tellus vitae eleifend enim
-                      a Aliquam eleifend aenean elementum semper.
+                      Domain name search allows you to find the perfect domain
+                      for your website. Instantly search hundreds of domain
+                      names and register with Hostarena.org today!
                     </p>{" "}
                     <a href="javascript:void(0)" className="text-primary">
                       Read more <i className="uil uil-angle-right-b"></i>
@@ -300,8 +301,8 @@ class Home extends PureComponent {
                   <div className="content mt-4">
                     <h5>Cloud Hosting</h5>
                     <p className="text-muted">
-                      Allegedly, a Latin scholar established the origin of the
-                      established text by compiling unusual word.
+                      Cloud hosting is a type of web hosting which uses multiple
+                      different servers to balance the load and maximize uptime.
                     </p>{" "}
                     <a href="javascript:void(0)" className="text-primary">
                       Read more <i className="uil uil-angle-right-b"></i>
@@ -318,8 +319,11 @@ class Home extends PureComponent {
                   <div className="content mt-4">
                     <h5>Shared Hosting</h5>
                     <p className="text-muted">
-                      It seems that only fragments of the original text remain
-                      in only fragments the Lorem Ipsum texts used today.
+                      Shared Hosting is one of the most popular hosting packages
+                      because it provides an affordable way to get your website
+                      online. Shared Hosting works by allowing multiple users to
+                      share space on a single server maintained by the hosting
+                      provider (Hostarena).
                     </p>{" "}
                     <a href="javascript:void(0)" className="text-primary">
                       Read more <i className="uil uil-angle-right-b"></i>
@@ -336,8 +340,11 @@ class Home extends PureComponent {
                   <div className="content mt-4">
                     <h5>VPS Hosting</h5>
                     <p className="text-muted">
-                      Nisi aenean vulputate eleifend tellus vitae eleifend enim
-                      a Aliquam eleifend aenean elementum semper.
+                      Users are guaranteed the resources on their VPS web
+                      hosting account. This means that your account will always
+                      be allocated the set amount of RAM, CPU and Disk Space
+                      you've chosen regardless of what other users on the server
+                      are doing.
                     </p>{" "}
                     <a href="javascript:void(0)" className="text-primary">
                       Read more <i className="uil uil-angle-right-b"></i>
@@ -354,8 +361,10 @@ class Home extends PureComponent {
                   <div className="content mt-4">
                     <h5>Reseller Hosting</h5>
                     <p className="text-muted">
-                      Allegedly, a Latin scholar established the origin of the
-                      established text by compiling unusual word.
+                      Reseller hosting, sometimes referred to as white label
+                      hosting, allows you to create your own web hosting company
+                      without having to incur the costs of server maintenance,
+                      software, site uptime, and more.
                     </p>{" "}
                     <a href="javascript:void(0)" className="text-primary">
                       Read more <i className="uil uil-angle-right-b"></i>
@@ -372,8 +381,12 @@ class Home extends PureComponent {
                   <div className="content mt-4">
                     <h5>Web Hosting</h5>
                     <p className="text-muted">
-                      It seems that only fragments of the original text remain
-                      in only fragments the Lorem Ipsum texts used today.
+                      Giving individuals or organizations the chance to host a
+                      website that is usually accessible via a web browser.{" "}
+                      <br />
+                      It’s a specialist provider that securely stores your files
+                      (HTML, pictures etc) and runs your site live on the
+                      internet.
                     </p>{" "}
                     <a href="javascript:void(0)" className="text-primary">
                       Read more <i className="uil uil-angle-right-b"></i>
@@ -677,8 +690,8 @@ class Home extends PureComponent {
                           </li>
                         </ul>
                         <p className="text-muted mt-2">
-                          " It seems that only fragments of the original text
-                          remain in the Lorem Ipsum texts used today. "
+                          " The customer service is amazing! Replied and helped
+                          almost instantly. 10/10 would recommend. "
                         </p>
                         <h6 className="text-primary">
                           - Thomas Israel{" "}
@@ -713,8 +726,8 @@ class Home extends PureComponent {
                           </li>
                         </ul>
                         <p className="text-muted mt-2">
-                          " One disadvantage of Lorum Ipsum is that in Latin
-                          certain letters appear more frequently than others. "
+                          " My support ticket was handles quite first. A+
+                          service. Highly recommend Hostarena. "
                         </p>
                         <h6 className="text-primary">
                           - Barbara McIntosh{" "}
@@ -749,9 +762,9 @@ class Home extends PureComponent {
                           </li>
                         </ul>
                         <p className="text-muted mt-2">
-                          " The most well-known dummy text is the 'Lorem Ipsum',
-                          which is said to have originated in the 16th century.
-                          "
+                          " Great support. I love this web site. They know very
+                          well to handle their customers. I strongly
+                          recommended. "
                         </p>
                         <h6 className="text-primary">
                           - Carl Oliver{" "}
@@ -786,8 +799,9 @@ class Home extends PureComponent {
                           </li>
                         </ul>
                         <p className="text-muted mt-2">
-                          " According to most sources, Lorum Ipsum can be traced
-                          back to a text composed by Cicero. "
+                          " I moved overseas and Hostarena helped me upgrade my
+                          old site with their Site Builder Software. Great
+                          service and support. "
                         </p>
                         <h6 className="text-primary">
                           - Christa Smith{" "}
@@ -822,8 +836,8 @@ class Home extends PureComponent {
                           </li>
                         </ul>
                         <p className="text-muted mt-2">
-                          " There is now an abundance of readable dummy texts.
-                          These are usually used when a text is required. "
+                          " So far so good. Migrations were done fast, tech
+                          support has been great and agents very helpful. "
                         </p>
                         <h6 className="text-primary">
                           - Dean Tolle{" "}
@@ -858,8 +872,8 @@ class Home extends PureComponent {
                           </li>
                         </ul>
                         <p className="text-muted mt-2">
-                          " Thus, Lorem Ipsum has only limited suitability as a
-                          visual filler for German texts. "
+                          " As always a great service and great support.
+                          Hostingarena is top. "
                         </p>
                         <h6 className="text-primary">
                           - Jill Webb{" "}
