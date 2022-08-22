@@ -57,10 +57,10 @@ class Contact extends PureComponent {
                   <div className="content mt-3">
                     <h5 className="fw-bold">Phone</h5>
                     <p className="text-muted">
-                      Start working with Landrick that can provide everything
+                      You can reach us from 9 AM to 6 PM every day from Monday to Friday
                     </p>{" "}
-                    <a href="tel:+44 0345 450 2310" className="text-primary">
-                      +44 0345 450 2310
+                    <a href="tel:+447520619099" className="text-primary">
+                      +44 752 061 9099
                     </a>
                   </div>
                 </div>
@@ -74,7 +74,7 @@ class Contact extends PureComponent {
                   <div className="content mt-3">
                     <h5 className="fw-bold">Email</h5>
                     <p className="text-muted">
-                      Start working with Landrick that can provide everything
+                      We're here to help you with any question <br />
                     </p>{" "}
                     <a
                       href="mailto:sales@hostarena.org"
@@ -94,12 +94,12 @@ class Contact extends PureComponent {
                   <div className="content mt-3">
                     <h5 className="fw-bold">Location</h5>
                     <p className="text-muted">
-                      20-22 Wenlock Road, London
+                      71-75 Shelton Street, Covent Garden
                       <br />
-                      N1 7GU, UNITED KINGDOM
+                      LONDON, WC2H 9JQ, UNITED KINGDOM
                     </p>{" "}
                     <a
-                      href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d39206.002432144705!2d-95.4973981212445!3d29.709510002925988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640c16de81f3ca5%3A0xf43e0b60ae539ac9!2sGerald+D.+Hines+Waterwall+Park!5e0!3m2!1sen!2sin!4v1566305861440!5m2!1sen!2sin"
+                      href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.907825893364!2d-0.12577288401399583!3d51.51490701797493!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604ccab37652b%3A0x22220c3f07824033!2sShop%2071%2C%20ALG%20ID%20Cards%20t%2Fa%20The%20Lanyard%2C%2075%20Shelton%20St%2C%20London%20WC2H%209JQ%2C%20UK!5e0!3m2!1sen!2smy!4v1661098508058!5m2!1sen!2smy"
                       data-type="iframe"
                       className="video-play-icon text-primary lightbox"
                     >
@@ -246,7 +246,8 @@ class Contact extends PureComponent {
                 <div className="card map border-0">
                   <div className="card-body p-0">
                     <iframe
-                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d39206.002432144705!2d-95.4973981212445!3d29.709510002925988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640c16de81f3ca5%3A0xf43e0b60ae539ac9!2sGerald+D.+Hines+Waterwall+Park!5e0!3m2!1sen!2sin!4v1566305861440!5m2!1sen!2sin"
+                      title="Hostarena address on map"
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.907825893364!2d-0.12577288401399583!3d51.51490701797493!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604ccab37652b%3A0x22220c3f07824033!2sShop%2071%2C%20ALG%20ID%20Cards%20t%2Fa%20The%20Lanyard%2C%2075%20Shelton%20St%2C%20London%20WC2H%209JQ%2C%20UK!5e0!3m2!1sen!2smy!4v1661098508058!5m2!1sen!2smy"
                       style={{ border: 0 }}
                       allowfullscreen
                     ></iframe>
@@ -260,5 +261,6 @@ class Contact extends PureComponent {
     );
   }
 }
+
 
 export default Contact;
