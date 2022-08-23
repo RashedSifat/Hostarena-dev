@@ -62,6 +62,15 @@ class Header extends PureComponent {
                   Refund Policy
                 </a>
               </li>
+              <li>
+                <a
+                  href="/refundpolicy"
+                  className="sub-menu-item"
+                  style={{ color: "black" }}
+                >
+                  Terms & Condition
+                </a>
+              </li>
             </ul>{" "}
             <div className="buy-menu-btn d-none">
               {" "}
