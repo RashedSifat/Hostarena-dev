@@ -6,6 +6,7 @@ import Footer from "./components/footer";
 import Home from "./source/home";
 import Contact from "./source/contact";
 import Privacy from "./source/privacy";
+import RefundPolicy from "./source/refundPolicy";
 
 import Checkout from "./source/checkout";
 
@@ -30,6 +31,7 @@ function App() {
         <Route path="/checkout/paypal" component={Paypal} />
         {/* <Route path="/checkout/:id" component={Checkout} /> */}
         <Route path="/privacy" component={Privacy} />
+        <Route path="/refundpolicy" component={RefundPolicy} />
         <Route path="/contact" component={Contact} />
         <Route path="/" component={Home} />
       </Switch>
