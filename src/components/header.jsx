@@ -64,7 +64,7 @@ class Header extends PureComponent {
               </li>
               <li>
                 <a
-                  href="/refundpolicy"
+                  href="/termscondition"
                   className="sub-menu-item"
                   style={{ color: "black" }}
                 >
