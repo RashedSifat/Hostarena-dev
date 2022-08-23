@@ -74,7 +74,7 @@ class Contact extends PureComponent {
                   <div className="content mt-3">
                     <h5 className="fw-bold">Email</h5>
                     <p className="text-muted">
-                      We're here to help you with any question <br />
+                      We're here to help you with any question <br /><br />
                     </p>{" "}
                     <a
                       href="mailto:sales@hostarena.org"
