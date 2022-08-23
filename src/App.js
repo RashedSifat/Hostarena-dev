@@ -7,6 +7,7 @@ import Home from "./source/home";
 import Contact from "./source/contact";
 import Privacy from "./source/privacy";
 import RefundPolicy from "./source/refundPolicy";
+import TermsCondition from "./source/termsCondition";
 
 import Checkout from "./source/checkout";
 
@@ -32,6 +33,7 @@ function App() {
         {/* <Route path="/checkout/:id" component={Checkout} /> */}
         <Route path="/privacy" component={Privacy} />
         <Route path="/refundpolicy" component={RefundPolicy} />
+        <Route path="/termscondition" component={TermsCondition} />
         <Route path="/contact" component={Contact} />
         <Route path="/" component={Home} />
       </Switch>
