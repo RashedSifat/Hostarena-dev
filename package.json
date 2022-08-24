@@ -1,6 +1,7 @@
 {
   "name": "hostarena-dev",
   "version": "0.1.0",
+  "homepage": "https://hostarena.org/",
   "private": true,
   "dependencies": {
     "@stripe/react-stripe-js": "^1.10.0",
